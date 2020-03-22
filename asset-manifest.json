@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Cryptowatch/static/css/main.d498bfb3.chunk.css",
-    "main.js": "/Cryptowatch/static/js/main.9b3f12ba.chunk.js",
-    "main.js.map": "/Cryptowatch/static/js/main.9b3f12ba.chunk.js.map",
+    "main.js": "/Cryptowatch/static/js/main.3a82e17c.chunk.js",
+    "main.js.map": "/Cryptowatch/static/js/main.3a82e17c.chunk.js.map",
     "runtime-main.js": "/Cryptowatch/static/js/runtime-main.c9c5041f.js",
     "runtime-main.js.map": "/Cryptowatch/static/js/runtime-main.c9c5041f.js.map",
     "static/js/2.a729241f.chunk.js": "/Cryptowatch/static/js/2.a729241f.chunk.js",
     "static/js/2.a729241f.chunk.js.map": "/Cryptowatch/static/js/2.a729241f.chunk.js.map",
     "index.html": "/Cryptowatch/index.html",
-    "precache-manifest.80d4e804723b392a84ba45599e2e2571.js": "/Cryptowatch/precache-manifest.80d4e804723b392a84ba45599e2e2571.js",
+    "precache-manifest.e02916ecdb2c4ad7778bd4af612160f7.js": "/Cryptowatch/precache-manifest.e02916ecdb2c4ad7778bd4af612160f7.js",
     "service-worker.js": "/Cryptowatch/service-worker.js",
     "static/css/main.d498bfb3.chunk.css.map": "/Cryptowatch/static/css/main.d498bfb3.chunk.css.map",
     "static/js/2.a729241f.chunk.js.LICENSE.txt": "/Cryptowatch/static/js/2.a729241f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c9c5041f.js",
     "static/js/2.a729241f.chunk.js",
     "static/css/main.d498bfb3.chunk.css",
-    "static/js/main.9b3f12ba.chunk.js"
+    "static/js/main.3a82e17c.chunk.js"
   ]
 }
