@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import { ReactComponent as LoadingAnimation} from '../components/loading.svg'
 import Cards from './Cards'
 
 const Cryptos = () => {
@@ -27,10 +28,15 @@ const Cryptos = () => {
     },[state.loading])
 
     return(
+        <div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
-            {state.cryptos.map(crypto => 
+            {!state.loading &&state.cryptos.map(crypto => 
                 (<Cards crypto={crypto}/>)
             )}
+        </div>
+        {state.loading && 
+            <div className="mx-auto mt-10"><center><LoadingAnimation style={{height: 80, width: 80 }} /></center></div>
+        }
         </div>
     )
 }
