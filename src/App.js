@@ -5,9 +5,11 @@ import Cryptos from './components/Cryptos'
 
 function App() {
   return (
-    <div className="container mx-auto m-4">
+    <div>
       <Header />
-      <Cryptos />
+      <div className="container mx-auto m-4">
+        <Cryptos />
+      </div>
     </div>
   );
 }

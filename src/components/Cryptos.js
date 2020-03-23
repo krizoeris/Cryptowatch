@@ -5,15 +5,18 @@ import Cards from './Cards'
 const Cryptos = () => {
     const[state, setState] = useState({
         cryptos: [],
-        loading: true
+        loading: true,
+        page: 1
     })
 
+    const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&sparkline=true&per_page=9&page='+state.page
+
     const getCryptoData = async () => {
-        const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=true'
         let response = await fetch(url)
         response = await response.json()
         
         setState({
+            ...state,
             loading: false,
             cryptos: response
         })
@@ -24,13 +27,13 @@ const Cryptos = () => {
     }
 
     useEffect(() => {
-
+        getCryptoData()
     },[state.loading])
 
     return(
         <div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
-            {!state.loading &&state.cryptos.map(crypto => 
+            {state.cryptos.map(crypto => 
                 (<Cards crypto={crypto}/>)
             )}
         </div>
