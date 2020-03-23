@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Cryptowatch/static/css/main.d498bfb3.chunk.css",
-    "main.js": "/Cryptowatch/static/js/main.a7a63a47.chunk.js",
-    "main.js.map": "/Cryptowatch/static/js/main.a7a63a47.chunk.js.map",
+    "main.js": "/Cryptowatch/static/js/main.d68066df.chunk.js",
+    "main.js.map": "/Cryptowatch/static/js/main.d68066df.chunk.js.map",
     "runtime-main.js": "/Cryptowatch/static/js/runtime-main.c9c5041f.js",
     "runtime-main.js.map": "/Cryptowatch/static/js/runtime-main.c9c5041f.js.map",
-    "static/js/2.2c80f01e.chunk.js": "/Cryptowatch/static/js/2.2c80f01e.chunk.js",
-    "static/js/2.2c80f01e.chunk.js.map": "/Cryptowatch/static/js/2.2c80f01e.chunk.js.map",
+    "static/js/2.12ba6d96.chunk.js": "/Cryptowatch/static/js/2.12ba6d96.chunk.js",
+    "static/js/2.12ba6d96.chunk.js.map": "/Cryptowatch/static/js/2.12ba6d96.chunk.js.map",
     "index.html": "/Cryptowatch/index.html",
-    "precache-manifest.456402df2b26c3fe1996a4dcc900b727.js": "/Cryptowatch/precache-manifest.456402df2b26c3fe1996a4dcc900b727.js",
+    "precache-manifest.bfdf5ef41d768f0c9c7b34f067d16c26.js": "/Cryptowatch/precache-manifest.bfdf5ef41d768f0c9c7b34f067d16c26.js",
     "service-worker.js": "/Cryptowatch/service-worker.js",
     "static/css/main.d498bfb3.chunk.css.map": "/Cryptowatch/static/css/main.d498bfb3.chunk.css.map",
-    "static/js/2.2c80f01e.chunk.js.LICENSE.txt": "/Cryptowatch/static/js/2.2c80f01e.chunk.js.LICENSE.txt",
+    "static/js/2.12ba6d96.chunk.js.LICENSE.txt": "/Cryptowatch/static/js/2.12ba6d96.chunk.js.LICENSE.txt",
     "static/media/loading.501f14a3.svg": "/Cryptowatch/static/media/loading.501f14a3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c9c5041f.js",
-    "static/js/2.2c80f01e.chunk.js",
+    "static/js/2.12ba6d96.chunk.js",
     "static/css/main.d498bfb3.chunk.css",
-    "static/js/main.a7a63a47.chunk.js"
+    "static/js/main.d68066df.chunk.js"
   ]
 }
