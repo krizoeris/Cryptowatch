@@ -42,7 +42,7 @@ const Cards = ({ crypto }) => {
         labels: Array(prices.length),
         datasets: [
           {
-            backgroundColor: 'rgba(0,0,0,0)',
+            backgroundColor: 'rgb(217, 236, 255)',
             borderColor: 'rgb(118, 174, 226)',
             pointRadius: 0,
             pointHoverRadius: 0,
@@ -58,16 +58,16 @@ const Cards = ({ crypto }) => {
                 <div>
                     <div className="flex">
                         <img src={crypto.image} className="w-8 h-8 mr-1 mt-2" />
-                        <p className="text-gray-900 text-3xl h-10 leading-lead font-semibold">{crypto.symbol.toUpperCase()}</p>
+                        <p className="text-gray-900 text-2xl md:text-3xl h-10 leading-lead font-semibold">{crypto.symbol.toUpperCase()}</p>
                     </div>
-                    <p className="text-gray-700 text-xl">{crypto.name}</p>
+                    <p className="text-gray-700 text-md">{(crypto.name.length < 10) ? crypto.name : crypto.name.substr(0, 10)+'...'}</p>
                 </div>
                 
                 <div className="ml-auto text-gray-800 text-right mt-1">
-                    <p className="text-3xl leading-tight font-bold">{crypto.current_price.toLocaleString('en-US', {style: 'currency', currency: 'USD'})}</p>
-                    <div className="">
-                        <span className={"ml-1 text-"+(state.isUp ? "green" : "red")+"-800 font-bold text-lg"}>({crypto.price_change_percentage_24h.toFixed(2)}%)</span>
-                        <span className={"ml-1 text-"+(state.isUp ? "green" : "red")+"-800 font-bold text-lg"}>{crypto.price_change_24h.toLocaleString('en-US', {style: 'currency', currency: 'USD'})} <i class={"fas fa-arrow-"+(state.isUp ? "up" : "down")} aria-hidden="true"></i></span>
+                    <p className="text-2xl leading-tight font-bold">{crypto.current_price.toLocaleString('en-US', {style: 'currency', currency: 'USD'})}</p>
+                    <div className="mt-1">
+                        <span className={"ml-1 text-"+(state.isUp ? "green" : "red")+"-800 font-bold text-sm"}>({crypto.price_change_percentage_24h.toFixed(2)}%)</span>
+                        <span className={"ml-1 text-"+(state.isUp ? "green" : "red")+"-800 font-bold text-sm"}>{crypto.price_change_24h.toLocaleString('en-US', {style: 'currency', currency: 'USD'})} <i class={"fas fa-arrow-"+(state.isUp ? "up" : "down")} aria-hidden="true"></i></span>
                     </div>
                 </div>
             </div>
