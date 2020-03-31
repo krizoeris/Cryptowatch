@@ -11,7 +11,7 @@
 npm install
 
 # Run the server
-npm run client
+npm run start
 
 # Server runs on http://localhost:3000
 ```
