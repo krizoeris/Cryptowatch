@@ -1,4 +1,4 @@
-#Cryptowatch
+# Cryptowatch
 
 **Version 1.0.0**
 
@@ -18,5 +18,5 @@ npm run client
 
 ---
 
-##License & copyright
+## License & copyright
 © Kriztian Eris Labatete
